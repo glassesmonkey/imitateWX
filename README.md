@@ -21,6 +21,8 @@
 
 （2）查询和修改群客户端扩展字段是异步的，建议在他们的回调中处理业务
 
+（3）Demo 中对这部分代码有加注释//imitateweixin ，全局搜索可以快速找到这部分代码
+
 ## 5.**Demo讲解**
 1. 界面自定义了UIKIT的右上角的 ActionBar 按钮定制，添加了一个检查当前会议有无人员参加的入口（SessionTeamCustomization.java），[参考链接](https://github.com/netease-im/NIM_Android_UIKit/blob/master/documents/%E5%AE%9A%E5%88%B6%E8%81%8A%E5%A4%A9%E7%AA%97%E5%8F%A3.md#actionbar-%E5%8F%B3%E4%BE%A7%E6%8C%89%E9%92%AE%E5%AE%9A%E5%88%B6)
 2. 查询和修改群客户端扩展字段在 TeamAVChatActivity.java 和 AVChatActivity.java 中实现
